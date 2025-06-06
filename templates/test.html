@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UFT-8">
+    <title> Results </title>
+    <link rel="stylesheet" href = "{{ url_for('static', filename='style.css')}}"
+</head>
+<body>
+<div class="container">
+    <h1> Your suitable professions:</h1>
+    {% for prof, score in result.items() %}
+        <div class="question-box">
+            <strong>{{ prof }}</strong><br>
+            {{ professions[prof] }}<br>
+            <em>Points: {{ score }}</em>
+        </div>
+    {% endfor %}
+</div>
+</body>
+</html>

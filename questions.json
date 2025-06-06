@@ -1,0 +1,27 @@
+[
+  {
+    "text": "Where do you want to go more?",
+    "options": [
+      {"label": "move", "image": "concert.png"}
+      {"label": "nature", "image" : "ozero.jpg"}
+ 
+    ],
+    "mapping": {
+      "move": [ "Artist", "SalesManager"],
+      "nature": ["Tourism", "Ecologist"]
+    }
+  },
+  {
+    "text": "Какое занятие вам импонирует?",
+    "options": [
+      {"label": "Рисовать", "image": "img4.jpg"},
+      {"label": "Игра на гитаре", "image": "img5.jpg"},
+      {"label": "Программирование", "image": "img6.jpg"}
+    ],
+    "mapping": {
+      "Рисовать": "Художник",
+      "Игра на гитаре": "Музыкант",
+      "Программирование": "Программист" 
+    }
+  }
+]
