@@ -4,6 +4,11 @@
 
 
 '''
+
 questions
+static
 results
-back button '''
+back button
+style
+image
+'''
